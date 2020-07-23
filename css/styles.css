@@ -1,0 +1,50 @@
+.logo{
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 0px;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item,li,a:hover{
+    color: blue !important;
+}
+/* end of nav styles */
+#section{
+    background-position: center;
+    background-size: cover;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.asideContents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 20%;
+}
+.asideContents2{
+    color: white;
+    min-height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

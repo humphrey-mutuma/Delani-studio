@@ -34,6 +34,7 @@
 .asideContents2{
     color: white;
     min-height: 60vh;
+    background-position: center;
 }
 /* what we do section */
 .toggleSection{
@@ -43,35 +44,47 @@
 .toggleSection div img{
     display: block;
     margin: 5vh auto;
-
 }
 .toggleImage1{
     width: 33.3%;
-    background-color: burlywood;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-
 /* second image */
 .toggleImage2{
     width: 33.3%;
-    background-color: rgb(233, 233, 25);
     text-align: center;
 }
 /* third image */
 .toggleImage3{
     width: 33.3%;
-    background-color: blue;
     text-align: center;
 }
 /* toggle */
-.initiallyHiden{
-    display: ;
-    margin: 0 10px;
+.initiallyHiden1{
+    display: none ;
+    margin: 0 20px;
     text-align: center;
 }
+.initiallyHiden2{
+    display: none ;
+    margin: 0 20px;
+    text-align: center;
+}
+.initiallyHiden3{
+    display: none ;
+    margin: 0 20px;
+    text-align: center;
+}
+/* make the what we do section responsive */
 
+@media screen and (max-width: 720px) and (min-width: 100px) {
+    .toggleImage1,.toggleImage2,.toggleImage3{
+        width: 100%;
+        float: left;
+    }
+}
 
 
 

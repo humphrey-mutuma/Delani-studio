@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .asideContents{
     display: flex;
     flex-direction: column;
@@ -31,6 +32,34 @@
 .asideContents2{
     color: white;
     min-height: 60vh;
+}
+/* what we do section */
+.toggleDivs{
+    /* float: left; */
+}
+.toggleImage1{
+    min-width: 33.3%;
+    background-color: burlywood;
+}
+.toggleImage2{
+    min-width: 33.3%;
+    background-color: rgb(233, 233, 25);
+    text-align: center;
+}
+.toggleImage2 img{
+    text-align: center;
+    background-color: blue;
+}
+/* third image */
+.toggleImage3{
+    min-width: 33.3%;
+    background-color: blue;
+}
+
+.toggleImage3 img{
+    float: right;
+    background-color: blue;
+
 }
 
 

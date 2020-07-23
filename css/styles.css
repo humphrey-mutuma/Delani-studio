@@ -20,10 +20,12 @@
     color: white;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .asideContents{
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -34,32 +36,40 @@
     min-height: 60vh;
 }
 /* what we do section */
-.toggleDivs{
-    /* float: left; */
+.toggleSection{
+    display: flex;
+    min-height: 30vh;
+}
+.toggleSection div img{
+    display: block;
+    margin: 5vh auto;
+
 }
 .toggleImage1{
-    min-width: 33.3%;
+    width: 33.3%;
     background-color: burlywood;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+
+/* second image */
 .toggleImage2{
-    min-width: 33.3%;
+    width: 33.3%;
     background-color: rgb(233, 233, 25);
     text-align: center;
 }
-.toggleImage2 img{
-    text-align: center;
-    background-color: blue;
-}
 /* third image */
 .toggleImage3{
-    min-width: 33.3%;
+    width: 33.3%;
     background-color: blue;
+    text-align: center;
 }
-
-.toggleImage3 img{
-    float: right;
-    background-color: blue;
-
+/* toggle */
+.initiallyHiden{
+    display: ;
+    margin: 0 10px;
+    text-align: center;
 }
 
 

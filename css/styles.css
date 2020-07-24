@@ -1,11 +1,24 @@
+nav{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.288) !important;
+}
 .logo{
     width: 40px;
     background-color: blue;
     border-radius: 50%;
     padding: 0px;
+
 }
 .nav-item{
     margin-left: 20px;
+}
+nav-item,li,a{
+    color: white !important;
+}
+.dropdown-item{
+    color: black !important;
 }
 .nav-item,li,a:hover{
     color: blue !important;
@@ -14,7 +27,7 @@
 #section{
     background-position: center;
     background-size: cover;
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     color: white;
@@ -22,7 +35,10 @@
     align-items: center;
     text-align: center;
 }
-
+#section img:last-child{
+    position: absolute;
+    bottom: 10px;
+}
 .asideContents{
     display: flex;
     text-align: center;
@@ -64,17 +80,17 @@
 /* toggle */
 .initiallyHiden1{
     display: none ;
-    margin: 0 20px;
+    margin: 5px 20px;
     text-align: center;
 }
 .initiallyHiden2{
     display: none ;
-    margin: 0 20px;
+    margin: 5px 20px;
     text-align: center;
 }
 .initiallyHiden3{
     display: none ;
-    margin: 0 20px;
+    margin: 5px 20px;
     text-align: center;
 }
 /* make the what we do section responsive */
@@ -85,8 +101,38 @@
         float: left;
     }
 }
+/* portfolio */
+.row{
+    margin-top: 3vh;
+}
+.rowElement{
+    width: 24%;
+    min-height: 24vh;
+    margin-left: 1%;
+}
+.rowElement img{
+    width: 100%;
+    height: auto;
+}
+
+.inittialltHiddenMain1,.inittialltHiddenMain2,.inittialltHiddenMain3,.inittialltHiddenMain4{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 33vh;
+}
+
+.initiallyHidden1,.initiallyHidden2,.initiallyHidden3,.initiallyHidden4{
+    background-color: rgba(255, 255, 255, 0.63);
+    min-height: 33vh;
+    width: 100%;
+    display: none ;
 
 
+}
 
 
 

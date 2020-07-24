@@ -134,16 +134,44 @@ nav-item,li,a{
     padding-top: 12vh;
     text-align: center;
 }
+/* rearrange the images on small screens */
+/* @media screen and (max-width: 720px) and (min-width: 100px) {
+    .inittialltHiddenMain{
+        width: 100% ;
+        float: left ;
+    }
+} */
 /* the form section */
 .myForm{
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    /* align-content: center !important; */
-    text-align: center !important;
-    min-height: 70vh;
+    display: flex ;
+    flex-direction: column ;
+    justify-content:space-around ;
+    align-content: center ;
+    text-align: center ;
+    min-height: 80vh;
+    margin: auto;
+    color: white;
 }
-
+.form-group{
+    margin-left: 10px;
+    width: 100%;
+    align-content: space-around;
+    
+}
+.form-control{
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: white !important;
+    border: thin solid white;
+}
+#myForm{
+    width: 50em;
+}
+/* change size of form on small screens */
+@media screen and (max-width: 720px) and (min-width: 100px) {
+    #myForm{
+        width: 100%;
+    }
+}
 
 
 

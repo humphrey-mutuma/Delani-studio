@@ -35,6 +35,18 @@ $(document).ready(function(event){
     $('.inittialltHiddenMain4').hover(function(){
         $('.initiallyHidden4').toggle();
     });
+    $('.inittialltHiddenMain5').hover(function(){
+        $('.initiallyHidden5').toggle();
+    });
+    $('.inittialltHiddenMain6').hover(function(){
+        $('.initiallyHidden6').toggle();
+    });
+    $('.inittialltHiddenMain7').hover(function(){
+        $('.initiallyHidden7').toggle();
+    });
+    $('.inittialltHiddenMain8').hover(function(){
+        $('.initiallyHidden8').toggle();
+    });
  event.preventDefault();
 });
 

@@ -115,7 +115,7 @@ nav-item,li,a{
     height: auto;
 }
 
-.inittialltHiddenMain1,.inittialltHiddenMain2,.inittialltHiddenMain3,.inittialltHiddenMain4{
+.inittialltHiddenMain{
     color: black;
     display: flex;
     flex-direction: column;
@@ -124,16 +124,25 @@ nav-item,li,a{
     text-align: center;
     min-height: 33vh;
 }
-
-.initiallyHidden1,.initiallyHidden2,.initiallyHidden3,.initiallyHidden4{
+.initiallyHidden{
     background-color: rgba(255, 255, 255, 0.63);
     min-height: 33vh;
     width: 100%;
     display: none ;
-
-
 }
-
+.initiallyHidden h3{
+    padding-top: 12vh;
+    text-align: center;
+}
+/* the form section */
+.myForm{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    /* align-content: center !important; */
+    text-align: center !important;
+    min-height: 70vh;
+}
 
 
 

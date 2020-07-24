@@ -166,6 +166,10 @@ nav-item,li,a{
 #myForm{
     width: 50em;
 }
+.btn-default{
+    border: 1px solid white !important;
+    color: white !important;
+}
 /* change size of form on small screens */
 @media screen and (max-width: 720px) and (min-width: 100px) {
     #myForm{

@@ -23,30 +23,49 @@ $(document).ready(function(event){
         $('.initiallyShown3').toggle();
         $('.initiallyHiden3').toggle();
     });
-    $('.inittialltHiddenMain1').hover(function(){
+    // the portfolio section
+    $('.inittiallyHiddenMain1').hover(function(){
         $('.initiallyHidden1').toggle();
     });
-    $('.inittialltHiddenMain2').hover(function(){
+    $('.inittiallyHiddenMain2').hover(function(){
         $('.initiallyHidden2').toggle();
     });
-    $('.inittialltHiddenMain3').hover(function(){
+    $('.inittiallyHiddenMain3').hover(function(){
         $('.initiallyHidden3').toggle();
     });
-    $('.inittialltHiddenMain4').hover(function(){
+    $('.inittiallyHiddenMain4').hover(function(){
         $('.initiallyHidden4').toggle();
     });
-    $('.inittialltHiddenMain5').hover(function(){
+    $('.inittiallyHiddenMain5').hover(function(){
         $('.initiallyHidden5').toggle();
     });
-    $('.inittialltHiddenMain6').hover(function(){
+    $('.inittiallyHiddenMain6').hover(function(){
         $('.initiallyHidden6').toggle();
     });
-    $('.inittialltHiddenMain7').hover(function(){
+    $('.inittiallyHiddenMain7').hover(function(){
         $('.initiallyHidden7').toggle();
     });
-    $('.inittialltHiddenMain8').hover(function(){
+    $('.inittiallyHiddenMain8').hover(function(){
         $('.initiallyHidden8').toggle();
     });
  event.preventDefault();
 });
 
+// function to alert the user on submission of the form
+ function myMessage(){
+           //collect the name
+    var name = document.getElementById("name").value;
+            // collect the email
+    var email = document.getElementById("exampleFormControlInput1").value;
+            // collect the message
+    var message = document.getElementById("exampleFormControlTextarea1").value;
+            // The pop up message
+    var myMessage = " we have received your message. Thank you for reaching out to us.*";
+                 // pop up the message with the name
+    if(name == ""){
+        document.getElementById("popUp").innerHTML = "Sorry! you did not enter a name."
+    }else{
+        document.getElementById("popUp").innerHTML = "*"  + name + myMessage ; // 
+      }
+
+    }

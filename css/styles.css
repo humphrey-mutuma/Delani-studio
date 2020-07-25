@@ -209,5 +209,26 @@ nav-item,li,a{
     align-items: center;
     text-align: center;
 }
+/* slide show from right  home page*/
+    .slideRight {
+    width:auto;
+    overflow:hidden;
+    height: inherit;
+  }
+  .slideRight {
+    animation: 7s  slideRight;
+  }
+  @keyframes slideRight {
+    from {
+      margin-left: -100%;
+      width:auto; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: auto;
+    }
+  }
+  /* left slide show about us page*/
 
 

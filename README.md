@@ -66,4 +66,4 @@ To fix a bug or enhance an existing module, follow these steps:
 #### Demo : 
 Here is the link to live demo [Click me](https://humphrey-mutuma.github.io/Delani-studio/)
 
-Copyright and license information: This project is licensed under the terms of the [MIT license.](#)
+Copyright and license information: This project is licensed under the terms of the [MIT license.](https://github.com/humphrey-mutuma/Delani-studio/blob/master/LICENSE.md)

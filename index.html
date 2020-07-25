@@ -119,8 +119,8 @@
 <section id="projects" class="container">
     <div class="row">
         <div class="rowElement">
-            <div id="1" class="inittiallyHiddenMain1 " style="background-image:url('images/portfolio/work1.jpg') ;" >
-                <div id="2" class="initiallyHidden1 "> 
+            <div id="1" class="inittiallyHiddenMain1 inittialltHiddenMain" style="background-image:url('images/portfolio/work1.jpg') ;" >
+                <div id="2" class="initiallyHidden1 initiallyHidden "> 
                 <h3>Pets website</h3>
                 </div>
             </div>
@@ -185,17 +185,17 @@
     <div class="row" style="background-image: url('images/backgrounds/c_image.jpg');">
         <div class="myForm ">
             <h2>Contact us</h2>
-            <form id="myForm" method="#">
+            <form id="myForm" action="js/scripts.js" method="POST">
                 <div style="display: flex !important;">  
                 <div class="form-group">
-                    <input id="name" class="form-control" type="text" placeholder="Enter name">
+                    <input name="name" id="name" class="form-control" type="text" placeholder="Enter name">
                 </div>
                 <div class="form-group" >
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                 </div>
-            </div>
+                </div>
                 <div class="form-group">
-                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="your message here ..." rows="10"></textarea>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="your message here ..." rows="10"></textarea>
                 </div>
                 <button id="submit" class="btn btn-default" onclick="myMessage()" type="button">Submit form</button>
               </form>

@@ -67,5 +67,8 @@ $(document).ready(function(event){
     }else{
         document.getElementById("popUp").innerHTML = "*"  + name + myMessage ; // 
       }
-
+    }
+    // function to clear input fields after submisssion.
+    function clearForm() {
+        document.getElementById("myForm").reset();
     }

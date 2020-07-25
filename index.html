@@ -60,7 +60,7 @@
       <h1>To Delani Studio</h1>
       <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT.</h6>
       <img src="images/mouse_click.png" alt="mouse_click">
-</div>
+    </div>
 </section>
 <!-- end of main section -->
 <!-- about us page -->
@@ -185,10 +185,10 @@
     <div class="row" style="background-image: url('images/backgrounds/c_image.jpg');">
         <div class="myForm ">
             <h2>Contact us</h2>
-            <form id="myForm" action="js/scripts.js" method="POST">
+            <form id="myForm" >
                 <div style="display: flex !important;">  
                 <div class="form-group">
-                    <input name="name" id="name" class="form-control" type="text" placeholder="Enter name">
+                    <input name="name" id="name" class="form-control" type="text" placeholder="Enter name" required>
                 </div>
                 <div class="form-group" >
                     <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -197,8 +197,8 @@
                 <div class="form-group">
                     <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="your message here ..." rows="10"></textarea>
                 </div>
-                <button id="submit" class="btn btn-default" onclick="myMessage()" type="button">Submit form</button>
-              </form>
+                <button id="submit" class="btn btn-default" onclick="myMessage() ; clearForm()" type="button">Submit form</button>  
+            </form>
               <h5 id="popUp"></h5>
         </div>
     </div>

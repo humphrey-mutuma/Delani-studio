@@ -64,6 +64,6 @@ To fix a bug or enhance an existing module, follow these steps:
 - Create a Pull Request
 
 #### Demo : 
-Here is the link to live demo [Click me](https://humphrey-mutuma.github.io/delai-studio/)
+Here is the link to live demo [Click me](https://humphrey-mutuma.github.io/Delai-studio/)
 
-Copyright and license information: This project is licensed under the terms of the MIT license.
+Copyright and license information: This project is licensed under the terms of the [MIT license.](https://humphrey-mutuma.github.io/Delai-studio/)

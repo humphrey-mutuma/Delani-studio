@@ -62,10 +62,11 @@ $(document).ready(function(event){
             // The pop up message
     var myMessage = " we have received your message. Thank you for reaching out to us.*";
                  // pop up the message with the name
-    if(name == ""){
-        document.getElementById("popUp").innerHTML = "Sorry! you did not enter a name."
+    if(name == "" || email == "" || message == "") {
+        document.getElementById("popUp").innerHTML = "Sorry! you did not enter a name or email or a message."
     }else{
         document.getElementById("popUp").innerHTML = "*"  + name + myMessage ; // 
+        alert("*"  + name + myMessage )
       }
     }
     // function to clear input fields after submisssion.

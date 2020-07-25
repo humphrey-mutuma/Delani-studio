@@ -123,6 +123,9 @@ nav-item,li,a{
     align-items: center;
     text-align: center;
     min-height: 33vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .initiallyHidden{
     background-color: rgba(255, 255, 255, 0.63);
@@ -135,12 +138,22 @@ nav-item,li,a{
     text-align: center;
 }
 /* rearrange the images on small screens */
-/* @media screen and (max-width: 720px) and (min-width: 100px) {
-    .inittialltHiddenMain{
-        width: 100% ;
+@media screen and (max-width: 850px) and (min-width: 600px) {
+    #rowElement{
+        width: 48% ;
+        margin: 2vh auto;
+        justify-content: space-around;
         float: left ;
     }
-} */
+}
+@media screen and (max-width: 599px) and (min-width: 100px) {
+    #rowElement{
+        width: 90% ;
+        margin: 1vh auto;
+        justify-content: space-around;
+        float: left ;
+    }
+}
 /* the form section */
 .myForm{
     display: flex ;

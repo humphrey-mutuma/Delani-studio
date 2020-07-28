@@ -50,7 +50,6 @@ $(document).ready(function(event){
     });
  event.preventDefault();
 });
-
 // function to alert the user on submission of the form
  function myMessage(){
            //collect the name
@@ -70,7 +69,7 @@ $(document).ready(function(event){
         alert("*"  + name + myMessage )
       }
     }
-    
+
 // function to clear input fields after submisssion.
     function clearForm() {
     document.getElementById("myForm").reset();

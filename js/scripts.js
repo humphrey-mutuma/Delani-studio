@@ -73,5 +73,5 @@ $(document).ready(function(event){
     
 // function to clear input fields after submisssion.
     function clearForm() {
-        document.getElementById("myForm").reset();
-    }
+    document.getElementById("myForm").reset();
+}
